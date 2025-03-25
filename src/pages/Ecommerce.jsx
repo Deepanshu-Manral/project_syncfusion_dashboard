@@ -56,7 +56,7 @@ const Ecommerce = () => {
               </button>
               <p className="mt-3">
                 <span className="text-lg font-semibold">{item.amount}</span>
-                <span className={`text-sm text-${item.pcColor} ml-2`}>
+                <span className={`text-sm text-₹{item.pcColor} ml-2`}>
                   {item.percentage}
                 </span>
               </p>
@@ -89,7 +89,7 @@ const Ecommerce = () => {
             <div className=" border-r-1 border-color m-4 pr-10">
               <div>
                 <p>
-                  <span className="text-3xl font-semibold">$93,438</span>
+                  <span className="text-3xl font-semibold">₹93,438</span>
                   <span className="p-1.5 hover:drop-shadow-xl cursor-pointer rounded-full text-white bg-green-400 ml-3 text-xs">
                     23%
                   </span>
@@ -97,7 +97,7 @@ const Ecommerce = () => {
                 <p className="text-gray-500 mt-1">Budget</p>
               </div>
               <div className="mt-8">
-                <p className="text-3xl font-semibold">$48,487</p>
+                <p className="text-3xl font-semibold">₹48,487</p>
 
                 <p className="text-gray-500 mt-1">Expense</p>
               </div>
@@ -128,7 +128,7 @@ const Ecommerce = () => {
               <p className="font-semibold text-white text-2xl">Earnings</p>
 
               <div>
-                <p className="text-2xl text-white font-semibold mt-8">$63,448.78</p>
+                <p className="text-2xl text-white font-semibold mt-8">₹63,448.78</p>
                 <p className="text-gray-200">Monthly revenue</p>
               </div>
             </div>
@@ -140,7 +140,7 @@ const Ecommerce = () => {
 
           <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl md:w-400 p-8 m-3 flex justify-center items-center gap-10">
             <div>
-              <p className="text-2xl font-semibold ">$43,246</p>
+              <p className="text-2xl font-semibold ">₹43,246</p>
               <p className="text-gray-400">Yearly sales</p>
             </div>
 
@@ -176,7 +176,7 @@ const Ecommerce = () => {
                     <p className="text-sm text-gray-400">{item.desc}</p>
                   </div>
                 </div>
-                <p className={`text-${item.pcColor}`}>{item.amount}</p>
+                <p className={`text-₹{item.pcColor}`}>{item.amount}</p>
               </div>
             ))}
           </div>
@@ -230,7 +230,7 @@ const Ecommerce = () => {
                   </div>
                 </div>
 
-                <p className={`text-${item.pcColor}`}>{item.amount}</p>
+                <p className={`text-₹{item.pcColor}`}>{item.amount}</p>
               </div>
             ))}
             <div className="mt-4">
@@ -247,7 +247,7 @@ const Ecommerce = () => {
             </button>
           </div>
           <p className="text-xs cursor-pointer hover:drop-shadow-xl font-semibold rounded-lg w-24 bg-orange-400 py-0.5 px-2 text-gray-200 mt-10">
-            16 APR, 2021
+            1 DEC, 2024
           </p>
 
           <div className="flex gap-4 border-b-1 border-color mt-6">
@@ -274,7 +274,7 @@ const Ecommerce = () => {
             </div>
           </div>
           <div className="mt-2">
-            <p className="text-md font-semibold mb-2">Leaders</p>
+            <p className="text-md font-semibold mb-2">Leaders / Team Members</p>
             <div className="flex gap-4">
               {medicalproBranding.leaders.map((item, index) => (
                 <img key={index} className="rounded-full w-8 h-8" src={item.image} alt="" />
@@ -308,11 +308,11 @@ const Ecommerce = () => {
               alt=""
             />
             <div className="mt-8">
-              <p className="font-semibold text-lg">React 18 coming soon!</p>
-              <p className="text-gray-400 ">By Johnathan Doe</p>
+              <p className="font-semibold text-lg">My novel 'Prepafu' is coming here!!</p>
+              <p className="text-gray-400 ">By Deepanshu Manral</p>
               <p className="mt-8 text-sm text-gray-400">
                 This will be the small description for the news you have shown
-                here. There could be some great info.
+                here. There could be some great info. Better read it.
               </p>
               <div className="mt-3">
                 <Button
